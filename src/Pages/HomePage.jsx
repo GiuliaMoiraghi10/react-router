@@ -1,5 +1,8 @@
 export default function HomePage() {
     return (
-        <h1>HomePage</h1>
+        <div>
+            <h1>La magia di Harry Potter</h1>
+            <h2>Scegli il personaggio</h2>
+        </div>
     )
 }
