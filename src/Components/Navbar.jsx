@@ -4,7 +4,7 @@ import style from './Navbar.module.css'
 export default function Navbar() {
     return (
         <nav className={style.nav}>
-            <ul>
+            <ul className={style.menu}>
                 <li>
                     <NavLink to='/'>HomePage</NavLink>
                 </li>
