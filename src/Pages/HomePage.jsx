@@ -9,7 +9,7 @@ export default function HomePage() {
         <div>
             <h1 className={style.title}>La magia di Harry Potter</h1>
             <img className={style.imgHome} src={imageHome} alt="" />
-            <h2>Scegli il personaggio</h2>
+            <h2 className={style.sub_title}>Scegli il personaggio</h2>
             <section className={style.container}>
                 <div className={style.row}>
                     {characters.map((character) => (

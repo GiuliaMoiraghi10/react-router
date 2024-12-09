@@ -13,6 +13,7 @@
     object-fit: cover;
     object-position: center;
     border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
     max-height: 200px;
     aspect-ratio: 3/4;
 }

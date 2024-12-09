@@ -13,6 +13,13 @@
     font-size: 50px;
 }
 
+.sub_title {
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
