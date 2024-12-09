@@ -5,8 +5,6 @@ import imgHarry from '../assets/harryPotter.webp'
 
 export default function Card(props) {
 
-    // const { id, name, image } = character
-
     return (
         <div className={style.card}>
             <img className={style.image} src={props.image} alt="" />

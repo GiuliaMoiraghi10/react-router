@@ -6,7 +6,7 @@ export default function Navbar() {
         <nav className={style.nav}>
             <ul className={style.menu}>
                 <li>
-                    <NavLink to='/'>HomePage</NavLink>
+                    <NavLink to='/'>Home</NavLink>
                 </li>
                 <li>
                     <NavLink to='/about'>About</NavLink>
