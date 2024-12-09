@@ -1,13 +1,17 @@
 import style from './Card.module.css'
 import Button from './Button'
+import imgHarry from '../assets/harryPotter.webp'
 
 
-export default function Card() {
+export default function Card(props) {
+
+    // const { id, name, image } = character
+
     return (
-        <div>
-            <img src="" alt="" />
-            <div>
-                <h3>Personaggio</h3>
+        <div className={style.card}>
+            <img className={style.image} src={props.image} alt="" />
+            <div className={style.card_body}>
+                <h3 className={style.card_title}>{props.name}</h3>
                 <Button />
             </div>
         </div>

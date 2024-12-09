@@ -22,14 +22,17 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 10px; */
 }
 
 .row>* {
-    padding: 5px;
+    padding: 20px;
     width: 100%;
 }
 
 .col_4 {
     width: calc(4 * 100% / 12);
+    gap: 20px;
 }

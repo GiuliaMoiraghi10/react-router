@@ -9,31 +9,31 @@ export const characters = [
     {
         id: 1,
         name: 'Harry Potter',
-        image: '',
+        image: imgHarry,
     },
     {
         id: 2,
         name: 'Hermione Granger',
-        image: '',
+        image: imgHermione,
     },
     {
         id: 3,
         name: 'Ron Weasley',
-        image: '',
+        image: imgRon,
     },
     {
         id: 4,
         name: 'Voldemort',
-        image: '',
+        image: imgVoldemort,
     },
     {
         id: 5,
         name: 'Albus Silente',
-        image: '',
+        image: imgSilente,
     },
     {
         id: 6,
         name: 'Hagrid',
-        image: '',
+        image: imgHagrid,
     },
 ]
