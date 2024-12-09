@@ -1,0 +1,35 @@
+.imgHome {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 400px;
+}
+
+.title {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(236, 222, 203);
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.row>* {
+    padding: 5px;
+    width: 100%;
+}
+
+.col_4 {
+    width: calc(4 * 100% / 12);
+}
